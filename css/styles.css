@@ -5,7 +5,7 @@ body {
 .container {
     background-color: rgb(255, 255, 255);
     margin: auto;
-    height: 840px;
+    height: 845px;
     width: 1000px;
     margin-bottom: 0;
 }
@@ -51,7 +51,7 @@ footer {
     text-align: center;
     background-color: rgb(1, 29, 41);
     height: 60px;
-    width: 1000px;
+    width: 100%;
     margin: auto;
     padding-top: 15px;
     color: rgb(255, 255, 255);
