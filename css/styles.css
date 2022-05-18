@@ -2,7 +2,7 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-.container-fluid {
+.container {
     background-color: rgb(255, 255, 255);
     margin: auto;
     height: 740px;
@@ -55,4 +55,40 @@ footer {
     margin: auto;
     padding-top: 15px;
     color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1024px) {
+	header {
+		background-color: rgb(65, 6, 242);
+	}
+h1 {
+	background-color: rgb(65, 6, 242);
+}
+path {
+	fill: rgb(65, 6, 242);
+}
+}
+
+@media (max-width: 768px) {
+	header {
+		background-color: rgb(168, 29, 94);
+	}
+h1 {
+	background-color: rgb(168, 29, 94);
+}
+path {
+	fill: rgb(168, 29, 94);
+}
+}
+
+@media (max-width: 480px) {
+	header {
+		background-color: rgb(52, 165, 82);
+	}
+h1 {
+	background-color: rgb(52, 165, 82);
+}
+path {
+	fill: rgb(52, 165, 82);
+}
 }
